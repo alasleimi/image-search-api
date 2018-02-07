@@ -27,10 +27,10 @@ GET https://image-api.glitch.me/search/:searchTerm[?offset=page_number]
 ```JSON
 [
 {
-url: image url,
-snippet: description,
-thumbnail: thumbnail url,
-context: url of the original page
+"url": image url,
+"snippet": description,
+"thumbnail": thumbnail url,
+"context": url of the original page
 },
 .
 .
@@ -53,8 +53,8 @@ GET [https://image-api.glitch.me/history](https://image-api.glitch.me/history)
 history of recent search terms
 
  ```JSON
- [{ term: search term,
-    when: date in ISO 8601 extended format
+ [{ "term": search term,
+    "when": date in ISO 8601 extended format
   },
   {"term":"helloWorld",
     "when":"2018-02-07T20:20:13.379Z"
